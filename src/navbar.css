@@ -1,0 +1,39 @@
+.navbar {
+  display: flex;
+  justify-content: space-around;
+  height: 50px;
+  background-color: rgb(221, 221, 189);
+}
+
+.list-items {
+  display: flex;
+  gap: 2rem;
+  list-style-type: none;
+}
+.logo {
+  display: flex;
+  height: 50px;
+  border: 1px solid red;
+  justify-content: center;
+  align-self: center;
+}
+.logo img {
+  height: 50px;
+  width: 50px;
+}
+
+.search-notif {
+  display: flex;
+}
+
+.search-notif div {
+  display: flex;
+  /* /* height: 50px; */
+}
+
+.search-notif div {
+  justify-content: center;
+  align-items: center;
+  height: 50px;
+  width: 50px;
+}

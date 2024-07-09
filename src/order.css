@@ -1,0 +1,29 @@
+.list-item {
+  list-style-image: url("./assets/product/bulletarrow.svg");
+  display: block;
+}
+.list-item li:nth-child(n) {
+  margin-top: 1em;
+}
+.order {
+  background-color: white;
+  padding-top: 5em;
+  margin-top: 5em;
+  display: flex;
+  justify-content: space-around;
+}
+.order h2 {
+  text-align: center;
+}
+
+.list-item li {
+  padding-left: 1em;
+}
+
+.order-action {
+  margin-top: 2em;
+  background-color: rgb(255, 90, 2);
+  border: none;
+  color: white;
+  padding: 1em 2em;
+}

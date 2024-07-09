@@ -1,0 +1,30 @@
+.customer {
+  margin-top: 5em;
+  margin-left: 5em;
+  border-radius: 2em;
+  box-shadow: -50px -50px 1px #062133;
+}
+
+.review {
+  display: flex;
+  gap: 5em;
+  justify-content: flex-start;
+  padding: 0;
+}
+.review h2 {
+  margin-bottom: 0px;
+}
+
+.review div {
+  width: 50%;
+}
+.review-rght {
+  font-size: 1.5em;
+  align-self: center;
+}
+.arrow {
+  align-self: center;
+}
+.customer-name {
+  font-weight: 500;
+}

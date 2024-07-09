@@ -1,0 +1,87 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+
+* {
+  font-family: "Montserrat";
+}
+
+.reach-details {
+  background: rgba(98, 98, 98, 1);
+  padding: 0.8em;
+  border-radius: 1em;
+  display: flex;
+  width: fit-content;
+  gap: 0.7em;
+}
+
+.reach {
+  color: red;
+  display: flex;
+  padding: 12px 20px;
+  justify-content: center;
+  flex-direction: column;
+  gap: 0em;
+  align-items: center;
+  background: white;
+  border-radius: 5px;
+  padding: 0.3em;
+}
+
+.reach p {
+  color: rgba(255, 99, 0, 1);
+  font-weight: 900;
+  font-family: "Inter";
+}
+.reach p:nth-child(2) {
+  color: black;
+  margin: 5px 0px 0px;
+  font-weight: 500;
+}
+
+.rightHero {
+  font-family: "Montserrat";
+  padding-top: 2.5em;
+  display: flex;
+  flex-direction: column;
+  max-width: 50%;
+  gap: 1em;
+}
+
+.rightHero h2 {
+  font-size: 3em;
+  margin: 0;
+}
+.rightHero p {
+  font-size: 1em;
+  margin: 0;
+}
+
+.hero {
+  color: white;
+  padding: 2em;
+  display: flex;
+  gap: 2em;
+  background-color: rgba(6, 33, 51, 1);
+}
+
+.rightHero button {
+  width: 20%;
+  border: none;
+  background-color: orange;
+  padding: 5px 3px;
+  font-size: 1em;
+}
+
+.leftHero {
+  display: flex;
+}
+
+.leftHero .heroimg:nth-child(1) {
+  display: flex;
+  align-self: flex-end;
+}
+
+.leftHero div img {
+  height: 300px;
+  width: 300px;
+}

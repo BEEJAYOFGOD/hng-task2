@@ -1,0 +1,19 @@
+.footer {
+  display: flex;
+  background-color: #062133;
+  color: white;
+  gap: 1em;
+  padding: 1em;
+  justify-content: space-evenly;
+}
+.footer ul {
+  padding: 0;
+}
+
+.footer li {
+  list-style-type: none;
+}
+
+.footer-info {
+  max-width: 300px;
+}

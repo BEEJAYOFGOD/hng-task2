@@ -1,0 +1,34 @@
+.pop {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 0%;
+  text-align: center;
+}
+
+.qualities {
+  color: black;
+  padding: 2em;
+  background: rgba(217, 217, 217, 1);
+  margin: 5em;
+  border-radius: 10px;
+  display: flex;
+  gap: 2em;
+}
+
+.pop .imgDiv {
+  height: 50px;
+  width: 50px;
+  background: white;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1em;
+}
+
+.pop h2,
+.pop p {
+  margin: 0;
+}
