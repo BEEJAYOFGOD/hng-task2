@@ -1,5 +1,5 @@
 import "./hero.css";
-import img1 from "./assets/imgrect.svg";
+import img1 from "./assets/imgrect.png";
 import img2 from "./assets/imgrect2.svg";
 
 const hero = () => {
@@ -28,9 +28,8 @@ const hero = () => {
         </div>
       </div>
       <div className="leftHero">
-        <div className="heroimg">
-          <img src={img1} alt="sarch" />
-        </div>
+        <img className="heroimg" src={img1} alt="sarch" />
+
         <div className="heroimg">
           <img src={img2} alt="" />
         </div>
